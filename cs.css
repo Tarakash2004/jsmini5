@@ -1,0 +1,39 @@
+.main
+{
+    margin: auto;
+    width: 30%;
+    height: 450px;
+    border: 2px solid black;
+    background-color: rgb(149, 186, 112);
+}
+#rebox
+{
+    margin: auto;
+    margin-top: 30px;
+    width: 50%;
+    height: 20px;
+    padding: 15px;
+    background-color: darkgray;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid black;
+}
+.sub
+{
+    padding: 5px;
+    flex-grow: 2;
+
+    text-align: center;
+}
+button
+{
+    padding: 15px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+@media screen and (max-width:600px){
+    .main{
+        width: 100%;
+    }
+    
+}
